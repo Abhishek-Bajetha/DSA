@@ -1,10 +1,5 @@
 # Reverse a Number
 
-## Difficulty: Easy  
-**Accuracy:** 40.32%  
-**Submissions:** 510K+  
-**Points:** 2  
-
 ## Problem Statement
 Given a positive integer `n`, reverse its digits and return the reversed number.
 
