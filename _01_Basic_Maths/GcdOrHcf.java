@@ -1,4 +1,4 @@
-package Basic_Maths;
+package _01_Basic_Maths;
 
 public class GcdOrHcf {
     public static int gcdOrHcf(int n1, int n2) {

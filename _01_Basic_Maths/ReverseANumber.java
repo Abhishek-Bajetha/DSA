@@ -1,4 +1,4 @@
-package Basic_Maths;
+package _01_Basic_Maths;
 
 public class ReverseANumber {
     public static int reverseTheNumber(int number) {
