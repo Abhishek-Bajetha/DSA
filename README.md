@@ -72,12 +72,6 @@ This repository is primarily for personal learning and tracking progress. Howeve
 
 ---
 
-## 📈 Progress Tracker (Optional)
-
-_You can later add a tracker here with total questions solved per topic._
-
----
-
 ## 🙌 Let's Connect
 
 If you're also preparing for DSA, feel free to explore this repo and follow along. Let’s grow together 💪
