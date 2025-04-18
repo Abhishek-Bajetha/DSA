@@ -2,7 +2,7 @@ package _06_Binary_Search._1D_Arrays;
 
 public class BinarySearchInArrayWithRecursion {
     public static int binarySearchInArrayWithRecursion(int arr[], int low, int high, int target) {
-        int mid = (low + high) / 2;
+        int mid = (low + high) / 2; // ----> mid = low + (high - low) / 2
         if (low > high) {
             return -1;
         } else if (arr[mid] == target) {
