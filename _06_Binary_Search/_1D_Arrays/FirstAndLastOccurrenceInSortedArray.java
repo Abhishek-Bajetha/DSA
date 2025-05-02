@@ -37,16 +37,15 @@ public class FirstAndLastOccurrenceInSortedArray {
 
     public static int[] firstAndLastOccurrenceInSortedArray(int arr[], int target) {
         int first = lowerBoundInArray(arr, target);
-        if (arr[first] != target || first == -1)
+        if (first == arr.length || arr[first] != target )
             return new int[] { -1, -1 };
         int last = upperBoundInArray(arr, target);
         return new int[] { first, last - 1 };
-
     }
 
     public static void main(String[] args) {
-        int target = 4;
-        int[] arr = { 2, 4, 4, 4, 4, 4, 4, 4, 6 };
+        int target = 3;
+        int[] arr = { 2,2};
         int[] result = firstAndLastOccurrenceInSortedArray(arr, target);
         System.out.println("first: " + result[0] + " Second: " + result[1]);
     }
