@@ -29,8 +29,7 @@ public class SearchInRotatedSortedArray {
 
     public static void main(String[] args) {
         int target = 0;
-        int arr[] = {5,1,3};
+        int arr[] = { 5, 1, 3 };
         System.out.println("Index: " + searchInRotatedSortedArray(arr, target));
-        ;
     }
 }
