@@ -1,5 +1,5 @@
 
-package _08_Linked_List;
+package _08_Linked_List._1D_Linked_List;
 
 class Node {
     int data;
