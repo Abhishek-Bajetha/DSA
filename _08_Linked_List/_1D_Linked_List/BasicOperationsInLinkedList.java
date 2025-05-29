@@ -1,4 +1,3 @@
-
 package _08_Linked_List._1D_Linked_List;
 
 class Node {
@@ -31,6 +30,7 @@ class BasicOperationsInLinkedList {
         }
         System.out.println();
     }
+
     public static int lengthOfLL(Node head) {
         Node temp = head;
         int count = 0;
@@ -40,9 +40,10 @@ class BasicOperationsInLinkedList {
         }
         return count;
     }
-    public static String searchElement(Node head,int val) {
+
+    public static String searchElement(Node head, int val) {
         Node temp = head;
-       
+
         while (temp != null) {
             if (val == temp.data)
                 return "Present";
@@ -54,7 +55,7 @@ class BasicOperationsInLinkedList {
     public static void main(String[] args) {
         int arr[] = { 10, 20, 30, 40 };
         Node head = createLinkedList(arr);
-        System.out.println("Head node data is -> "+head.data);
+        System.out.println("Head node data is -> " + head.data);
         traversalLL(head);
         System.out.println("Length of LL is -> " + lengthOfLL(head));
         System.out.println(searchElement(head, 30));
