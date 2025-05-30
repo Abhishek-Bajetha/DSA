@@ -92,11 +92,11 @@ public class DeleteOperationInLinkedList {
         displayLinkedList(head);
         head = removeHead(head); // Delete the head Node of Linked List
         displayLinkedList(head);
-        head = removeTail(head); // Delete the tail Node of Linked List++
+        head = removeTail(head); // Delete the tail Node of Linked List
         displayLinkedList(head);
-        head = removeKthNode(head, 3);
+        head = removeKthNode(head, 3);// Delete the Kth Node of Linked List
         displayLinkedList(head);
-        head = removeElementNode(head, 40);
+        head = removeElementNode(head, 40);// Delete the element Node of Linked List
         displayLinkedList(head);
 
     }
