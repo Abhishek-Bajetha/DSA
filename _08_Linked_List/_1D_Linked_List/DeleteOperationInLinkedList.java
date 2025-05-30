@@ -35,8 +35,27 @@ public class DeleteOperationInLinkedList {
             temp = temp.next;
         }
         temp.next = null;
-        
+        return head;
+    }
 
+    public static Node removeKthNode(Node head, int k) {
+        if (head == null)
+            return head;
+        if (k == 1) {
+            head = head.next;
+            return head;
+        }
+        Node temp = head, prev = null;
+        int count = 0;
+        while (temp != null) {
+            count++;
+            if (count == k) {
+                prev.next = prev.next.next;
+                break;
+            }
+            prev = temp;
+            temp = temp.next;
+        }
         return head;
     }
 
@@ -53,9 +72,11 @@ public class DeleteOperationInLinkedList {
 
         Node head = n1;
         displayLinkedList(head);
-        head = removeHead(head); //Delete the head Node of Linked List
+        head = removeHead(head); // Delete the head Node of Linked List
         displayLinkedList(head);
-        head = removeTail(head); //Delete the tail Node of Linked List++
+        head = removeTail(head); // Delete the tail Node of Linked List++
+        displayLinkedList(head);
+        head = removeKthNode(head, 3);
         displayLinkedList(head);
 
     }
