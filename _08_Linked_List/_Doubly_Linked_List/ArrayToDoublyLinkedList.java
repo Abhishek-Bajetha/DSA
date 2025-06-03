@@ -27,8 +27,9 @@ public class ArrayToDoublyLinkedList {
 
     public static void display(Node head) {
         Node temp = head;
+        System.out.print("null");
         while (temp != null) {
-            System.out.print(temp.data + " -> ");
+            System.out.print(" <-> " + temp.data + " <-> ");
             temp = temp.next;
         }
         System.out.print("null\n");
