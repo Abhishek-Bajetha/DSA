@@ -1,4 +1,4 @@
-package _09_Stack_Queue.Basics_Of_Stack_Queue;
+package _09_Stack_Queue._Basics_Of_Stack_Queue;
 
 public class StackUsingArray {
     static int top = -1;
