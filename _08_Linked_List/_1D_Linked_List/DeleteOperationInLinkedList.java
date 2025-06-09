@@ -1,15 +1,5 @@
 package _08_Linked_List._1D_Linked_List;
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 public class DeleteOperationInLinkedList {
     public static void displayLinkedList(Node head) {
         Node temp = head;
